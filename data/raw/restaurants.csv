@@ -1,0 +1,301 @@
+restaurant_id,restaurant_name,restaurant_category,restaurant_rating,avg_prep_time,city
+R0001,The Food Studio 1,Pizza,4.1,26,Chennai
+R0002,The Food Studio 2,South Indian,4.2,20,Delhi
+R0003,Food Junction 3,Cafe,4.1,22,Bangalore
+R0004,Street Kitchen 4,Biryani,3.5,33,Kolkata
+R0005,Street Kitchen 5,South Indian,4.3,27,Hyderabad
+R0006,Flavour Hub 6,Fast Food,4.9,13,Bangalore
+R0007,The Food Studio 7,Desserts,4.3,19,Kolkata
+R0008,Green Plate 8,Chinese,3.9,23,Mumbai
+R0009,Food Junction 9,Cafe,3.5,10,Chennai
+R0010,Green Plate 10,Desserts,3.7,14,Kolkata
+R0011,The Tasty Corner 11,Cafe,4.3,17,Pune
+R0012,Curry House 12,Chinese,4.5,26,Kolkata
+R0013,Flavour Hub 13,Fast Food,4.2,14,Mumbai
+R0014,Curry House 14,Biryani,4.4,32,Chennai
+R0015,Flavour Hub 15,Bakery,4.4,20,Mumbai
+R0016,Biryani Bowl 16,Pizza,4.3,20,Delhi
+R0017,Food Junction 17,South Indian,3.8,27,Chennai
+R0018,Curry House 18,Indian,4.2,32,Pune
+R0019,Green Plate 19,Biryani,3.8,44,Chennai
+R0020,Food Junction 20,Biryani,4.1,48,Mumbai
+R0021,Green Plate 21,Healthy,4.2,18,Hyderabad
+R0022,The Food Studio 22,Cafe,4.8,23,Mumbai
+R0023,Curry House 23,Cafe,3.6,14,Chennai
+R0024,The Food Studio 24,Healthy,4.3,27,Chennai
+R0025,Street Kitchen 25,South Indian,4.7,29,Kolkata
+R0026,The Tasty Corner 26,Cafe,4.4,21,Hyderabad
+R0027,Biryani Bowl 27,Bakery,4.4,17,Bangalore
+R0028,Biryani Bowl 28,Pizza,4.3,32,Hyderabad
+R0029,Curry House 29,Indian,4.6,28,Bangalore
+R0030,Urban Bites 30,Indian,3.7,22,Pune
+R0031,The Tasty Corner 31,Chinese,3.5,33,Chennai
+R0032,Spice Route 32,Chinese,4.1,30,Kolkata
+R0033,Flavour Hub 33,Pizza,3.2,29,Delhi
+R0034,Biryani Bowl 34,Desserts,4.6,10,Delhi
+R0035,Food Junction 35,Desserts,4.6,10,Mumbai
+R0036,Street Kitchen 36,Biryani,3.9,42,Hyderabad
+R0037,The Food Studio 37,Biryani,4.0,43,Hyderabad
+R0038,Spice Route 38,Healthy,4.1,15,Delhi
+R0039,Food Junction 39,Fast Food,4.1,11,Bangalore
+R0040,Curry House 40,Chinese,4.2,21,Hyderabad
+R0041,The Tasty Corner 41,Fast Food,4.3,16,Bangalore
+R0042,Biryani Bowl 42,Cafe,4.0,18,Bangalore
+R0043,Flavour Hub 43,Indian,4.5,23,Bangalore
+R0044,Spice Route 44,Biryani,4.3,31,Bangalore
+R0045,Biryani Bowl 45,Desserts,3.9,12,Kolkata
+R0046,Urban Bites 46,Pizza,4.6,29,Mumbai
+R0047,Urban Bites 47,Chinese,3.6,24,Mumbai
+R0048,Urban Bites 48,Indian,4.1,28,Kolkata
+R0049,Street Kitchen 49,South Indian,4.5,22,Delhi
+R0050,The Food Studio 50,Pizza,3.8,32,Mumbai
+R0051,Curry House 51,Fast Food,4.2,21,Pune
+R0052,Food Junction 52,Bakery,4.3,12,Kolkata
+R0053,Biryani Bowl 53,Fast Food,3.8,18,Hyderabad
+R0054,Food Junction 54,Chinese,4.1,29,Pune
+R0055,Food Junction 55,Pizza,4.0,22,Kolkata
+R0056,Biryani Bowl 56,Bakery,3.9,19,Mumbai
+R0057,The Food Studio 57,Cafe,5.0,21,Hyderabad
+R0058,Street Kitchen 58,South Indian,3.8,28,Hyderabad
+R0059,Street Kitchen 59,Fast Food,4.5,17,Bangalore
+R0060,The Tasty Corner 60,South Indian,3.9,30,Delhi
+R0061,Curry House 61,Pizza,3.7,20,Bangalore
+R0062,The Tasty Corner 62,Indian,4.1,39,Kolkata
+R0063,The Food Studio 63,Pizza,4.4,23,Bangalore
+R0064,Food Junction 64,Desserts,4.5,15,Pune
+R0065,Curry House 65,Bakery,4.7,11,Mumbai
+R0066,The Tasty Corner 66,Indian,5.0,26,Pune
+R0067,The Tasty Corner 67,Fast Food,4.2,14,Mumbai
+R0068,Urban Bites 68,Cafe,3.8,19,Pune
+R0069,Street Kitchen 69,South Indian,4.3,30,Hyderabad
+R0070,Green Plate 70,Pizza,4.0,25,Mumbai
+R0071,The Tasty Corner 71,Healthy,4.5,25,Mumbai
+R0072,Spice Route 72,Chinese,3.6,33,Pune
+R0073,Urban Bites 73,Fast Food,5.0,15,Chennai
+R0074,Food Junction 74,Chinese,4.4,33,Hyderabad
+R0075,Flavour Hub 75,Indian,3.4,33,Kolkata
+R0076,Street Kitchen 76,Desserts,3.8,20,Hyderabad
+R0077,The Food Studio 77,Fast Food,4.4,15,Kolkata
+R0078,Biryani Bowl 78,Desserts,4.6,19,Chennai
+R0079,The Food Studio 79,Desserts,3.6,17,Pune
+R0080,Urban Bites 80,Cafe,4.4,19,Pune
+R0081,Spice Route 81,Indian,3.3,35,Hyderabad
+R0082,The Food Studio 82,Pizza,4.1,23,Pune
+R0083,Spice Route 83,Healthy,4.5,24,Delhi
+R0084,Biryani Bowl 84,Bakery,3.9,17,Delhi
+R0085,Flavour Hub 85,Desserts,3.5,18,Kolkata
+R0086,Street Kitchen 86,Indian,4.2,32,Chennai
+R0087,Street Kitchen 87,Cafe,3.9,22,Mumbai
+R0088,Green Plate 88,Fast Food,4.4,13,Delhi
+R0089,Spice Route 89,Biryani,3.7,46,Kolkata
+R0090,Biryani Bowl 90,Biryani,3.8,48,Pune
+R0091,The Tasty Corner 91,Healthy,3.3,15,Chennai
+R0092,The Tasty Corner 92,Cafe,4.2,16,Kolkata
+R0093,Food Junction 93,Indian,4.0,20,Kolkata
+R0094,Spice Route 94,Cafe,3.6,20,Delhi
+R0095,Curry House 95,Bakery,4.2,13,Bangalore
+R0096,The Food Studio 96,Bakery,4.5,10,Chennai
+R0097,Food Junction 97,Pizza,4.0,32,Hyderabad
+R0098,Food Junction 98,Biryani,4.2,31,Kolkata
+R0099,Food Junction 99,Biryani,4.2,43,Delhi
+R0100,Biryani Bowl 100,Bakery,3.6,10,Hyderabad
+R0101,Street Kitchen 101,Cafe,4.9,22,Chennai
+R0102,Food Junction 102,Healthy,3.9,19,Delhi
+R0103,Street Kitchen 103,Healthy,4.4,21,Hyderabad
+R0104,Street Kitchen 104,Desserts,4.4,12,Mumbai
+R0105,Spice Route 105,Fast Food,4.0,23,Kolkata
+R0106,Biryani Bowl 106,Biryani,4.3,43,Mumbai
+R0107,Street Kitchen 107,Bakery,4.2,14,Bangalore
+R0108,Food Junction 108,Cafe,3.5,14,Pune
+R0109,Biryani Bowl 109,Indian,4.0,40,Chennai
+R0110,Food Junction 110,Fast Food,3.9,17,Pune
+R0111,Urban Bites 111,Healthy,3.9,16,Pune
+R0112,The Food Studio 112,Chinese,3.6,21,Hyderabad
+R0113,Urban Bites 113,Chinese,4.6,34,Bangalore
+R0114,Urban Bites 114,Cafe,4.7,23,Chennai
+R0115,Spice Route 115,South Indian,4.5,26,Mumbai
+R0116,Curry House 116,South Indian,4.6,22,Pune
+R0117,The Food Studio 117,Biryani,4.0,38,Hyderabad
+R0118,Spice Route 118,Indian,3.8,29,Pune
+R0119,Food Junction 119,Desserts,3.8,19,Delhi
+R0120,Spice Route 120,Cafe,4.4,11,Mumbai
+R0121,Food Junction 121,Chinese,4.2,23,Pune
+R0122,Curry House 122,Chinese,4.1,27,Delhi
+R0123,Street Kitchen 123,Indian,4.6,37,Delhi
+R0124,Spice Route 124,Biryani,4.3,49,Hyderabad
+R0125,Green Plate 125,South Indian,3.8,24,Hyderabad
+R0126,Street Kitchen 126,Pizza,3.8,32,Delhi
+R0127,Flavour Hub 127,Biryani,4.4,46,Bangalore
+R0128,Spice Route 128,Biryani,4.5,45,Pune
+R0129,Food Junction 129,Healthy,4.3,16,Delhi
+R0130,The Food Studio 130,Desserts,4.9,16,Delhi
+R0131,Spice Route 131,Desserts,4.8,10,Hyderabad
+R0132,Food Junction 132,Chinese,4.3,31,Pune
+R0133,Curry House 133,Desserts,3.8,10,Chennai
+R0134,Urban Bites 134,Chinese,3.6,21,Mumbai
+R0135,Spice Route 135,Biryani,3.9,33,Hyderabad
+R0136,The Tasty Corner 136,Indian,4.4,39,Pune
+R0137,Flavour Hub 137,Pizza,4.8,24,Pune
+R0138,The Tasty Corner 138,Indian,4.3,39,Kolkata
+R0139,Street Kitchen 139,Biryani,4.6,33,Bangalore
+R0140,Street Kitchen 140,Bakery,4.0,18,Mumbai
+R0141,Urban Bites 141,Cafe,4.3,24,Hyderabad
+R0142,Urban Bites 142,South Indian,4.4,20,Hyderabad
+R0143,Street Kitchen 143,Cafe,3.3,21,Chennai
+R0144,Spice Route 144,Pizza,3.9,22,Kolkata
+R0145,Biryani Bowl 145,Desserts,4.5,15,Kolkata
+R0146,Spice Route 146,Cafe,4.2,22,Bangalore
+R0147,Flavour Hub 147,Desserts,3.6,16,Kolkata
+R0148,Street Kitchen 148,Biryani,3.1,36,Bangalore
+R0149,The Tasty Corner 149,Pizza,4.0,27,Pune
+R0150,Urban Bites 150,Healthy,4.1,27,Pune
+R0151,The Tasty Corner 151,South Indian,3.7,18,Hyderabad
+R0152,Street Kitchen 152,South Indian,4.2,15,Chennai
+R0153,Curry House 153,Bakery,4.3,15,Hyderabad
+R0154,Street Kitchen 154,Healthy,4.4,22,Kolkata
+R0155,Green Plate 155,Chinese,3.2,24,Delhi
+R0156,Flavour Hub 156,South Indian,3.6,27,Pune
+R0157,Green Plate 157,Fast Food,4.0,12,Delhi
+R0158,The Food Studio 158,Chinese,4.3,23,Kolkata
+R0159,The Tasty Corner 159,South Indian,4.3,22,Chennai
+R0160,Curry House 160,Biryani,4.3,35,Hyderabad
+R0161,Flavour Hub 161,Pizza,3.9,32,Pune
+R0162,Food Junction 162,Pizza,4.0,34,Chennai
+R0163,The Food Studio 163,Fast Food,3.8,22,Hyderabad
+R0164,Biryani Bowl 164,Biryani,4.4,34,Hyderabad
+R0165,Green Plate 165,Fast Food,3.7,22,Delhi
+R0166,Flavour Hub 166,Desserts,4.4,18,Mumbai
+R0167,Flavour Hub 167,Indian,4.2,29,Kolkata
+R0168,Green Plate 168,South Indian,4.1,17,Bangalore
+R0169,The Food Studio 169,Biryani,3.8,42,Pune
+R0170,Curry House 170,Indian,3.6,31,Bangalore
+R0171,Curry House 171,Indian,3.8,23,Chennai
+R0172,Urban Bites 172,Pizza,4.0,29,Bangalore
+R0173,Spice Route 173,Pizza,3.2,29,Delhi
+R0174,The Food Studio 174,Healthy,4.0,17,Mumbai
+R0175,The Tasty Corner 175,Desserts,4.5,10,Pune
+R0176,The Tasty Corner 176,Biryani,4.3,38,Kolkata
+R0177,The Food Studio 177,Bakery,3.9,10,Hyderabad
+R0178,Green Plate 178,Biryani,4.1,47,Hyderabad
+R0179,The Tasty Corner 179,Desserts,3.9,18,Kolkata
+R0180,The Tasty Corner 180,Pizza,4.2,24,Delhi
+R0181,Spice Route 181,Pizza,4.7,23,Pune
+R0182,Flavour Hub 182,South Indian,4.5,23,Bangalore
+R0183,Flavour Hub 183,Cafe,4.3,18,Kolkata
+R0184,The Food Studio 184,Pizza,3.9,21,Hyderabad
+R0185,Street Kitchen 185,Fast Food,4.4,12,Bangalore
+R0186,Flavour Hub 186,South Indian,3.4,26,Delhi
+R0187,Green Plate 187,Chinese,4.0,35,Hyderabad
+R0188,Food Junction 188,Cafe,4.3,12,Chennai
+R0189,Street Kitchen 189,Cafe,4.4,25,Mumbai
+R0190,Spice Route 190,Fast Food,4.4,14,Bangalore
+R0191,Green Plate 191,Cafe,4.2,22,Kolkata
+R0192,Curry House 192,Bakery,4.0,12,Pune
+R0193,Spice Route 193,Pizza,4.3,29,Bangalore
+R0194,Urban Bites 194,Pizza,3.7,25,Bangalore
+R0195,The Tasty Corner 195,South Indian,3.8,30,Bangalore
+R0196,Biryani Bowl 196,Desserts,4.1,11,Kolkata
+R0197,Curry House 197,Fast Food,4.2,15,Delhi
+R0198,Street Kitchen 198,Pizza,3.4,25,Delhi
+R0199,Green Plate 199,Indian,4.3,37,Pune
+R0200,Curry House 200,Healthy,4.4,20,Delhi
+R0201,Urban Bites 201,Pizza,4.1,25,Kolkata
+R0202,Green Plate 202,Biryani,5.0,42,Pune
+R0203,Biryani Bowl 203,Indian,3.8,33,Pune
+R0204,Street Kitchen 204,Desserts,4.0,14,Delhi
+R0205,Spice Route 205,Indian,3.9,26,Hyderabad
+R0206,The Food Studio 206,Cafe,4.1,22,Delhi
+R0207,Curry House 207,Healthy,4.0,29,Hyderabad
+R0208,Biryani Bowl 208,Chinese,3.5,31,Chennai
+R0209,Urban Bites 209,Healthy,3.9,19,Delhi
+R0210,Curry House 210,Pizza,4.1,30,Chennai
+R0211,Food Junction 211,South Indian,4.6,15,Delhi
+R0212,Food Junction 212,Bakery,5.0,18,Chennai
+R0213,Street Kitchen 213,Desserts,4.6,12,Mumbai
+R0214,Spice Route 214,South Indian,3.8,16,Chennai
+R0215,Street Kitchen 215,Pizza,3.8,29,Hyderabad
+R0216,Street Kitchen 216,South Indian,4.0,20,Bangalore
+R0217,The Tasty Corner 217,Biryani,4.8,37,Pune
+R0218,Spice Route 218,Indian,4.0,21,Chennai
+R0219,The Tasty Corner 219,Bakery,3.6,13,Bangalore
+R0220,Green Plate 220,Pizza,3.9,21,Kolkata
+R0221,Biryani Bowl 221,Cafe,4.4,21,Mumbai
+R0222,Biryani Bowl 222,Desserts,4.4,18,Mumbai
+R0223,Spice Route 223,Cafe,4.0,19,Kolkata
+R0224,Spice Route 224,Indian,4.4,32,Kolkata
+R0225,Green Plate 225,Bakery,3.2,11,Kolkata
+R0226,Biryani Bowl 226,Indian,4.1,29,Hyderabad
+R0227,Green Plate 227,Fast Food,4.4,11,Kolkata
+R0228,The Food Studio 228,Cafe,3.8,23,Hyderabad
+R0229,Urban Bites 229,Indian,3.8,40,Chennai
+R0230,Food Junction 230,Indian,3.4,31,Delhi
+R0231,The Food Studio 231,South Indian,4.7,19,Kolkata
+R0232,Street Kitchen 232,Pizza,3.8,31,Kolkata
+R0233,Curry House 233,South Indian,4.2,21,Mumbai
+R0234,The Tasty Corner 234,Fast Food,4.3,10,Bangalore
+R0235,Flavour Hub 235,Healthy,4.7,26,Delhi
+R0236,Curry House 236,Healthy,4.0,16,Mumbai
+R0237,Spice Route 237,South Indian,3.9,25,Chennai
+R0238,Urban Bites 238,Chinese,4.2,35,Kolkata
+R0239,The Food Studio 239,Cafe,4.6,20,Mumbai
+R0240,Flavour Hub 240,South Indian,4.0,20,Hyderabad
+R0241,Flavour Hub 241,Biryani,3.7,31,Bangalore
+R0242,Spice Route 242,Biryani,3.5,45,Bangalore
+R0243,The Food Studio 243,Desserts,3.6,13,Hyderabad
+R0244,Flavour Hub 244,Fast Food,4.4,19,Kolkata
+R0245,The Food Studio 245,Fast Food,4.0,25,Kolkata
+R0246,The Tasty Corner 246,South Indian,3.9,20,Delhi
+R0247,The Tasty Corner 247,Bakery,3.8,16,Hyderabad
+R0248,Flavour Hub 248,Indian,4.1,29,Kolkata
+R0249,Flavour Hub 249,Pizza,4.0,24,Bangalore
+R0250,Spice Route 250,Indian,4.0,27,Kolkata
+R0251,The Food Studio 251,Indian,4.6,25,Chennai
+R0252,Biryani Bowl 252,Fast Food,4.7,14,Kolkata
+R0253,Green Plate 253,Fast Food,3.5,13,Delhi
+R0254,Green Plate 254,Biryani,4.2,35,Pune
+R0255,Curry House 255,Fast Food,3.8,15,Mumbai
+R0256,Curry House 256,South Indian,4.0,30,Pune
+R0257,Flavour Hub 257,Biryani,4.2,46,Chennai
+R0258,Food Junction 258,Cafe,4.0,15,Pune
+R0259,The Tasty Corner 259,Indian,4.2,36,Kolkata
+R0260,Street Kitchen 260,Cafe,4.4,14,Delhi
+R0261,The Food Studio 261,Indian,4.2,36,Bangalore
+R0262,Urban Bites 262,Indian,3.8,36,Bangalore
+R0263,Urban Bites 263,Desserts,3.8,15,Chennai
+R0264,The Tasty Corner 264,Indian,3.5,26,Pune
+R0265,Curry House 265,Bakery,3.8,15,Delhi
+R0266,Spice Route 266,Cafe,4.9,14,Mumbai
+R0267,Urban Bites 267,Indian,3.8,25,Kolkata
+R0268,Flavour Hub 268,Chinese,3.6,32,Pune
+R0269,Food Junction 269,Chinese,4.2,33,Pune
+R0270,Urban Bites 270,Chinese,4.1,35,Mumbai
+R0271,Green Plate 271,South Indian,4.0,17,Hyderabad
+R0272,Food Junction 272,Biryani,4.7,38,Kolkata
+R0273,Food Junction 273,Cafe,4.3,24,Chennai
+R0274,Urban Bites 274,Indian,3.9,40,Kolkata
+R0275,Spice Route 275,Healthy,3.9,16,Delhi
+R0276,Spice Route 276,Biryani,3.9,39,Chennai
+R0277,Curry House 277,Healthy,4.4,24,Mumbai
+R0278,The Tasty Corner 278,Pizza,4.0,35,Delhi
+R0279,Flavour Hub 279,Bakery,3.4,16,Bangalore
+R0280,Street Kitchen 280,Pizza,4.1,22,Bangalore
+R0281,Biryani Bowl 281,Fast Food,3.5,10,Kolkata
+R0282,Street Kitchen 282,Biryani,5.0,32,Delhi
+R0283,Green Plate 283,Healthy,3.7,23,Chennai
+R0284,Spice Route 284,Desserts,4.0,14,Chennai
+R0285,Curry House 285,Indian,4.2,26,Bangalore
+R0286,Green Plate 286,South Indian,4.0,17,Bangalore
+R0287,Street Kitchen 287,Cafe,4.0,13,Mumbai
+R0288,Food Junction 288,Indian,4.3,36,Delhi
+R0289,The Tasty Corner 289,Cafe,4.7,12,Chennai
+R0290,Food Junction 290,Desserts,4.4,16,Mumbai
+R0291,Street Kitchen 291,Indian,4.7,23,Chennai
+R0292,Urban Bites 292,Bakery,3.7,11,Bangalore
+R0293,The Tasty Corner 293,Fast Food,4.2,23,Delhi
+R0294,Curry House 294,Chinese,4.2,24,Hyderabad
+R0295,The Food Studio 295,Desserts,4.2,14,Delhi
+R0296,Food Junction 296,Fast Food,4.7,24,Pune
+R0297,Urban Bites 297,Indian,4.0,21,Hyderabad
+R0298,Green Plate 298,Healthy,3.9,29,Kolkata
+R0299,The Food Studio 299,Fast Food,4.3,24,Kolkata
+R0300,Green Plate 300,South Indian,3.4,25,Mumbai
