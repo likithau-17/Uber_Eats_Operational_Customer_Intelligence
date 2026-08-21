@@ -29,9 +29,7 @@ The resulting customer segments can be used to support targeted marketing, custo
 
 The segmentation module uses the feature-engineered customer dataset:
 
-```text
-data/processed/customer_features.csv
-```
+``` data/processed/customer_features.csv```
 
 The dataset contains one row per customer.
 
@@ -59,21 +57,20 @@ Therefore, the segmentation workflow separates:
 
 ### Customer Identifier
 
-```text
+```
 customer_id
 ```
 
 ### Machine Learning Features
 
-```text
-total_orders
-avg_order_value
-total_spending
-weekend_orders
-late_night_orders
-ordering_frequency
-avg_rating_given
-```
+``` total_orders```
+``` avg_order_value```
+``` total_spending```
+``` weekend_orders```
+``` late_night_orders```
+``` ordering_frequency```
+``` avg_rating_given```
+
 
 The customer ID is added back later so that the resulting clusters can be associated with individual customers.
 
@@ -99,7 +96,7 @@ The module generates descriptive statistics and a correlation matrix.
 
 The customer feature dataset contains:
 
-```text
+```
 5,000 customers
 ```
 
@@ -125,7 +122,7 @@ The module generates a feature distribution figure to visually inspect the distr
 
 ### Output
 
-```text
+```
 outputs/figures/customer_feature_distributions.png
 ```
 
@@ -144,7 +141,7 @@ Boxplots are generated for the customer features to inspect potential outliers.
 
 ### Output
 
-```text
+```
 outputs/figures/customer_feature_boxplots.png
 ```
 
@@ -184,13 +181,13 @@ Without scaling, features with larger numerical ranges could dominate the distan
 
 For example:
 
-```text
+```
 total_spending
 ```
 
 has a much larger numerical range than:
 
-```text
+```
 late_night_orders
 ```
 
@@ -226,7 +223,7 @@ The number of clusters is not chosen blindly.
 
 The module evaluates values of:
 
-```text
+```
 K = 2 to 8
 ```
 
@@ -249,7 +246,7 @@ The objective is to identify a point where increasing K produces diminishing imp
 
 ### Output
 
-```text
+```
 outputs/figures/customer_elbow.png
 ```
 
@@ -266,7 +263,7 @@ It considers:
 
 The score ranges approximately from:
 
-```text
+```
 -1 to +1
 ```
 
@@ -274,7 +271,7 @@ Higher values generally indicate better-defined clusters.
 
 ### Output
 
-```text
+```
 outputs/figures/customer_silhouette.png
 ```
 
@@ -296,7 +293,7 @@ The current results were:
 
 The highest silhouette score occurs at:
 
-```text
+```
 K = 2
 ```
 
@@ -310,7 +307,7 @@ The relatively higher silhouette score for K = 2 also provides stronger separati
 
 The final K-Means model is trained using:
 
-```text
+```
 Number of clusters = 2
 ```
 
@@ -359,7 +356,7 @@ The profile is used to understand the behavioral differences between the cluster
 
 Cluster 0 contains:
 
-```text
+```
 2,819 customers
 ```
 
@@ -391,7 +388,7 @@ These customers may have lower platform engagement and could represent an opport
 
 Cluster 1 contains:
 
-```text
+```
 2,181 customers
 ```
 
@@ -445,13 +442,13 @@ This makes DBSCAN useful for comparing a centroid-based clustering approach with
 
 The module evaluates several `eps` values while keeping:
 
-```text
+```
 min_samples = 10
 ```
 
 The tested values are:
 
-```text
+```
 0.5
 0.7
 0.8
@@ -473,7 +470,7 @@ The results were:
 
 The current implementation selects:
 
-```text
+```
 eps = 0.8
 min_samples = 10
 ```
@@ -486,26 +483,26 @@ This produces three DBSCAN clusters and a substantial number of noise points.
 
 Using the selected parameters:
 
-```text
+```
 eps = 0.8
 min_samples = 10
 ```
 
 DBSCAN identifies:
 
-```text
+```
 3 clusters
 ```
 
 and:
 
-```text
+```
 2,693 noise points
 ```
 
 The noise percentage is:
 
-```text
+```
 53.86%
 ```
 
@@ -568,7 +565,7 @@ The current PCA results are:
 
 Therefore, the first two principal components explain approximately:
 
-```text
+```
 63.08%
 ```
 
@@ -582,7 +579,7 @@ This provides a useful two-dimensional representation for visual inspection of t
 
 The generated PCA figure is:
 
-```text
+```
 outputs/figures/customer_pca_clusters.png
 ```
 
@@ -600,7 +597,7 @@ This provides a visual representation of how the identified customer groups are 
 
 Machine learning produces numerical cluster labels such as:
 
-```text
+```
 Cluster 0
 Cluster 1
 ```
@@ -630,20 +627,20 @@ The names are based on the observed behavioral differences in:
 
 The final segmented customer dataset is saved as:
 
-```text
+```
 data/processed/customer_segments.csv
 ```
 
 The final dataset contains:
 
-```text
+```
 5,000 rows
 10 columns
 ```
 
 The columns are:
 
-```text
+```
 customer_id
 total_orders
 avg_order_value
@@ -683,7 +680,7 @@ The segmentation module generates the following files.
 
 ### Customer Feature Distribution
 
-```text
+```
 outputs/figures/customer_feature_distributions.png
 ```
 
@@ -691,7 +688,7 @@ Used to inspect feature distributions.
 
 ### Customer Feature Boxplots
 
-```text
+```
 outputs/figures/customer_feature_boxplots.png
 ```
 
@@ -699,7 +696,7 @@ Used to inspect potential outliers.
 
 ### K-Means Elbow Plot
 
-```text
+```
 outputs/figures/customer_elbow.png
 ```
 
@@ -707,7 +704,7 @@ Used to evaluate K-Means inertia across different values of K.
 
 ### K-Means Silhouette Plot
 
-```text
+```
 outputs/figures/customer_silhouette.png
 ```
 
@@ -715,7 +712,7 @@ Used to compare silhouette scores across different values of K.
 
 ### PCA Cluster Visualization
 
-```text
+```
 outputs/figures/customer_pca_clusters.png
 ```
 
@@ -723,7 +720,7 @@ Used to visualize the final customer clusters in two dimensions.
 
 ### Final Customer Segments
 
-```text
+```
 data/processed/customer_segments.csv
 ```
 
@@ -735,7 +732,7 @@ Contains the final customer-level segmentation results.
 
 The complete segmentation workflow is:
 
-```text
+```
 customer_features.csv
         │
         ▼
@@ -809,7 +806,7 @@ The current segmentation has several limitations.
 
 The K-Means silhouette score of:
 
-```text
+```
 0.2513
 ```
 
@@ -825,7 +822,7 @@ Some variables are strongly correlated.
 
 For example:
 
-```text
+```
 total_orders ↔ total_spending = 0.82
 ```
 
@@ -837,7 +834,7 @@ This means some behavioral dimensions may have overlapping information.
 
 Customers without review activity are represented using:
 
-```text
+```
 avg_rating_given = 0
 ```
 
@@ -933,7 +930,7 @@ The final customer segmentation consists of two primary groups:
 
 The final output is stored in:
 
-```text
+```
 data/processed/customer_segments.csv
 ```
 
