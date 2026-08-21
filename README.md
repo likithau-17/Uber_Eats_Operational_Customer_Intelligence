@@ -225,61 +225,79 @@ The validation checks confirmed that the generated datasets maintained the expec
 
 ## 6. Project Structure
 
+# 6. Project Structure
+
+```plaintext
 Uber_Eats_Operational_Customer_Intelligence/
 │
 ├── data/
-│   ├── raw/
-│   │   ├── customers.csv
-│   │   ├── restaurants.csv
-│   │   ├── drivers.csv
-│   │   ├── orders.csv
-│   │   ├── deliveries.csv
-│   │   ├── reviews.csv
-│   │   └── payments.csv
+│   ├── processed/
+│   │   ├── customer_features.csv
+│   │   ├── customer_segments.csv
+│   │   ├── negative_review_themes.csv
+│   │   ├── reviews_cleaned.csv
+│   │   └── tfidf_features.csv
 │   │
-│   └── processed/
-│       ├── customer_features.csv
-│       ├── customer_segments.csv
-│       ├── reviews_cleaned.csv
-│       ├── tfidf_features.csv
-│       └── negative_review_themes.csv
+│   └── raw/
+│       ├── customers.csv
+│       ├── deliveries.csv
+│       ├── drivers.csv
+│       ├── orders.csv
+│       ├── payments.csv
+│       ├── restaurants.csv
+│       └── reviews.csv
 │
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── data_generation_notes.md
+│   ├── delivery_prediction.md
+│   ├── demand_forecasting.md
 │   ├── feature_engineering.md
-│   ├── segmentation.md
-│   └── customer_feedback_analysis.md
+│   ├── nlp_sentiment.md
+│   └── segmentation.md
 │
 ├── outputs/
 │   ├── figures/
+│   │   ├── actual_vs_predicted_delivery_time.png
+│   │   ├── customer_elbow.png
+│   │   ├── customer_feature_boxplots.png
+│   │   ├── customer_feature_distributions.png
+│   │   ├── customer_pca_clusters.png
+│   │   ├── customer_silhouette.png
+│   │   ├── delivery_time_distribution.png
+│   │   ├── demand_by_day_of_week.png
+│   │   ├── demand_by_hour.png
+│   │   ├── demand_decomposition.png
+│   │   ├── hourly_demand_forecast.png
+│   │   ├── hourly_demand_trend.png
 │   │   └── sentiment_confusion_matrix.png
 │   │
 │   ├── models/
 │   │
 │   └── predictions/
-│       ├── sentiment_predictions.csv
 │       ├── delivery_time_predictions.csv
-│       └── hourly_demand_forecast.csv
+│       ├── hourly_demand_forecast.csv
+│       └── sentiment_predictions.csv
+│
+├── presentation/
+│   └── presentation.md
 │
 ├── src/
-│   ├── __init__.py
 │   ├── business_insights.py
-│   ├── data_cleaning.py
 │   ├── data_generation.py
+│   ├── data_validation.py
 │   ├── delivery_prediction.py
 │   ├── demand_forecasting.py
 │   ├── feature_engineering.py
 │   ├── nlp_sentiment.py
 │   └── segmentation.py
 │
-├── presentation/
-│
-├── main.py
+├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
----
+--- 
 
 ## 7. Machine Learning Workflow
 
