@@ -594,25 +594,35 @@ Forecasts should be combined with real-time monitoring because unexpected demand
 
 ### 1. Clone the Repository
 
-``` git clone <repository-url> cd Uber_Eats_Operational_Customer_Intelligence ```
+```bash
+git clone <repository-url> cd Uber_Eats_Operational_Customer_Intelligence
+```
 
 ### 2. Create a Virtual Environment
 
-``` python -m venv .venv ```
+```bash
+python -m venv .venv
+```
 
 ### 3. Activate the Virtual Environment
 
 #### Linux / macOS
 
-``` source .venv/bin/activate ```
+```bash
+source .venv/bin/activate
+```
 
 #### Windows
 
-``` .venv\Scripts\activate ```
+```bash
+.venv\Scripts\activate
+```
 
 ### 4. Install Dependencies
 
-``` pip install -r requirements.txt ```
+```bash
+pip install -r requirements.txt
+```
 
 ### 5. Run the Project
 
@@ -621,21 +631,31 @@ The project modules can be executed from the `src/` directory according to the a
 For example:
 
 ```bash 
-python src/data_generation.py```
+python src/data_generation.py
+```
 
-```bash
- python src/feature_engineering.py ```
+```bash 
+python src/feature_engineering.py
+```
 
-```bash
-python src/segmentation.py ```
+```bash 
+python src/segmentation.py
+```
 
-```bash
-python src/nlp_sentiment.py ```
+```bash 
+python src/nlp_sentiment.py
+```
 
-``` python src/delivery_prediction.py ```
+```bash 
+python src/delivery_prediction.py
+```
 
-``` python src/demand_forecasting.py ```
+```bash 
+python src/demand_forecasting.py
+```
 
-``` python src/business_insights.py ```
+```bash 
+python src/business_insights.py
+```
 
 The generated datasets are stored under `data/`, while processed datasets, model outputs, predictions, and visualizations are stored under `data/processed/` and `outputs/`.
