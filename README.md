@@ -620,13 +620,17 @@ The project modules can be executed from the `src/` directory according to the a
 
 For example:
 
-``` python src/data_generation.py```
+```bash 
+python src/data_generation.py```
 
-``` python src/feature_engineering.py ```
+```bash
+ python src/feature_engineering.py ```
 
-``` python src/segmentation.py ```
+```bash
+python src/segmentation.py ```
 
-``` python src/nlp_sentiment.py ```
+```bash
+python src/nlp_sentiment.py ```
 
 ``` python src/delivery_prediction.py ```
 
@@ -635,5 +639,3 @@ For example:
 ``` python src/business_insights.py ```
 
 The generated datasets are stored under `data/`, while processed datasets, model outputs, predictions, and visualizations are stored under `data/processed/` and `outputs/`.
-
----
